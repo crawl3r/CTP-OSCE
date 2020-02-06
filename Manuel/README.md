@@ -17,7 +17,7 @@ optional arguments:
                         Format: py = python
 ```
 
-Example usage clips:
+Example usage clips:  
 Standard usage
 [![asciicast](https://asciinema.org/a/wctxFuqCnkM6gyPNn4KC3XFqo.svg)](https://asciinema.org/a/wctxFuqCnkM6gyPNn4KC3XFqo)
 
