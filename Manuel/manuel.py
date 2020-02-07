@@ -59,7 +59,7 @@ def has_bad_chars(bytes, bad_bytes):
 
  Note: This function is pretty heavy and could be broken down and cleaned up pretty easily, but it works. 
 '''
-def encode(item, seperate_adds):
+def encode(bytes, seperate_adds):
     global encoded_shellcode, debug, output_format
     all_chars = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
     adds = []
@@ -69,7 +69,7 @@ def encode(item, seperate_adds):
     else:
         adds = ["",""]
 
-    for i in list(item):
+    for i in list(bytes):
         if i in all_chars:
             # value should be the target value we need to count up to
             val = all_chars.index(i)
